@@ -63,7 +63,7 @@ const TabsComponent = () => {
                 }}
             >
                 {questions.map((item, index) => (
-                    <TabPane tab={`${index + 1}`} key={index} >
+                    <TabPane tab={`${index+1}`} key={index} >
                         <Question data={item} bool={chekedBool} />
                     </TabPane>
                 ))}
